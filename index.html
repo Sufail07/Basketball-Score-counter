@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="home">
+                <h1>HOME</h1>
+                <div class="scoreBackground">
+                        <p id="homeScore">0</p>
+                </div>
+                <div class="column">
+                    <button class="plusOne" onclick="homePlusOne()">+1</button>
+                    <button class="plusTwo" onclick="homePlusTwo()">+2</button>
+                    <button class="plusThree" onclick="homePlusThree()">+3</button>
+                    <button class="reset" onclick="homeReset()">Reset</button>
+                </div>
+            </div>
+
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div class="scoreBackground">
+                    <p id="guestScore">0</p>
+                </div>
+                <div class="column">
+                    <button class="plusOne" onclick="awayPlusOne()">+1</button>
+                    <button class="plusTwo" onclick="awayPlusTwo()">+2</button>
+                    <button class="plusThree" onclick="awayPlusThree()">+3</button>
+                    <button class="reset" onclick="awayReset()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

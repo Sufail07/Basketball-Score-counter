@@ -1,0 +1,59 @@
+body {
+    background: #1B4242;
+}
+
+h1 {
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+
+.container {
+    width: 650px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    padding: 8px;
+}
+
+.home {
+    width: fit-content;
+    height: fit-content;
+}
+
+#homeScore, #guestScore {
+    font-size: 5.8em;
+    color: white;
+    margin-left: 30px;
+    position: relative;
+}
+
+.scoreBackground {
+    width: 150px;
+    height: 150px;
+    background: black;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 50px;
+    background: none;
+    color: #A6CF98;
+    border: 2px solid #A6CF98;
+    padding: 8px;
+    cursor: pointer;
+    position: relative;
+    right: 25px;
+    border-radius: 8px;
+    margin-inline: 5px;
+}
+
+button:hover {
+    color: white;
+    border: 2px solid white;
+}
